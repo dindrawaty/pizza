@@ -1,0 +1,53 @@
+/* Import the Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+/* Add this to your styles.css file */
+
+
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8; /* Change the background color as needed */
+
+    
+   
+   /* background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-family: 'Bungee Spice', cursive;*/
+}
+
+/* Add this to your styles.css file */
+body {
+    font-family: 'Roboto', sans-serif; /* Example Google Font */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bungee Spice', cursive;
+}
+
+.logo {
+    float: left; /* Align the logo to the left */
+    margin-right: 20px; /* Add some spacing between the logo and the heading */
+}
+
+/* You can adjust the size and other properties of the logo image */
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.nav-buttons {
+    display: flex;
+}
+
+.nav-buttons button {
+    margin-left: 10px; /* Adjust spacing between buttons */
+}
