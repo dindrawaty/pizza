@@ -10,7 +10,7 @@ header {
     display: flex; 
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     padding: 10px 20px;
     background-color: #f8f8f8; /* Change the background color as needed */
 
